@@ -1,0 +1,13 @@
+Read README-initial.md
+Create repo
+Clone repo to (C:\Users\Minwoo\Desktop\Coding_Bootcamp\my-class-repo\02-advanced-css\homework)
+Create website
+    index.html (save to homework folder)
+    reset.css
+    style.css
+Create ReadMe - include screenshots and gif walking through application
+Commit to Git (at least 15 feature-based commits / commit messaging use present tense like add, complete, replace )
+Submit homework on Bootcamp Spot (Deployed link and Github URL)
+
+
+
