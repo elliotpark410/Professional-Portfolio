@@ -1,0 +1,59 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(226, 224, 224);
+    color: black;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding: 10px 8px 6px 16px;
+}
+
+.sidenav {
+    padding: 6px 8px 6px 16px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidenav a {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(54, 54, 54);
+
+}
+
+main { 
+    display: block;
+    position: relative;
+    left: 230px;
+}
+
+
+
+article {
+    padding-top: 2%;
+    margin-bottom: 50px;
+}
+
+.image:hover {
+    position: relative;
+    width: 500px;
+    height: auto;
+    display: block;
+}

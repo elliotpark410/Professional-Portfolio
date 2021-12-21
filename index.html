@@ -5,38 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css" />
+    <!-- <link rel="stylesheet" href="reset.css" /> -->
     <link rel="stylesheet" href="style.css" />
     <title>Elliot Park's Portfolio</title>
 </head>
 
 <body>
     <header>
+        <div class="sidebar">
+            <h1>
+                Elliot Park 
+            </h1>
 
-        <h1>
-            Elliot Park 
-        </h1>
+            <h2>
+                Web Developer
+            </h2>
 
-        <h2>
-            HTML/CSS Student
-        </h2>
-
-        <nav>
-            <ul>  
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-    
-                <li>
-                    <a href="#resume">Resume</a>
-                </li>
-
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-
+            <div class="sidenav">
+                <a href="#about-me">About Me</a>
+                <a href="#my-work">My Work</a>
+                <a href="#resume">Resume</a>
+                <a href="#contact-me">Contact Me</a>
+            </div>
+        </div>
     </header>
 
     <div class="bannerImage"></div>
@@ -46,22 +37,56 @@
         <section>
 
             <article>
-                <h3>About Me</h3>
-                <div class="about-me">
+                <h3 id="about-me">About Me</h3>
+                    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGjuAc8D0m7NA/profile-displayphoto-shrink_800_800/0/1606238886540?e=1645660800&v=beta&t=vYlBPU6PW04MlIJ7CDMUJedYdaeOvNbiAHaMiRncFrE" alt="Elliot Park's photo">
+
                     <p>
                         Hi there, welcome to my personal site! I am Elliot
-                        Park, and I am a student in UC Berkely's extension 
+                        Park, and I am a student in UC Berkeley's extension 
                         program with a focus in web development. I graduated
                         from University of California, Santa Barbara and I live
                         in Irvine, California. I am an aspiring software engineer 
                         a seefood glutton, and a blue belt in brazilian jiu-jitsu. 
                     </p>
-                </div>
             </article>
 
             <article>
-                <h3>Resume</h3>
-                <div classs="resume">
+                <h3 id="my-work">My Work</h3>
+                    <section class="work-images">
+
+                        <div class="refactoring-client-site">
+                            <h4>Refactoring Client Site</h4>
+                            <a href="https://elliotpark410.github.io/refactoring-client-site/">
+                            <img class="image" src="Assets\Refactor Client Site image.png" alt="Refactoring Client Site screenshot" width="400px">
+                            </a>
+                        </div>
+
+                        <div class="visitor-form">
+                            <h4>Visitor Form</h4>
+                            <a href="https://elliotpark410.github.io/visitorform/"></a>
+                            <img class="image" src="Assets\Visitor Form image.png" alt="Visitor Form screenshot" width=400px>
+                            </a>
+                        </div>
+                        
+                        <div class="css-snippets">
+                            <h4>CSS Snippets</h4>
+                            <a href="https://elliotpark410.github.io/CSS-snippets/"></a>
+                            <img class="image" src="Assets\CSS Snippets image.png" alt="CSS Snippets screenshot" width=400px>
+                            </a>
+                        </div>
+
+                        <div class="password-generator">
+                            <h4>Password Generator</h4>
+                            <a href="https://elliotpark410.github.io/password-generator/"></a>
+                            <img class="image" src="Assets\Password Generator image.png" alt="Password Generator screenshot" width=400px>
+                            </a>
+                        </div>
+                       
+                    </section>
+            </article>
+
+            <article>
+                <h3 id="resume">Resume</h3>
                     <p>
                         I graduated form University of California, Santa Barbara 
                         with a degree in Philosophy. After graduation, I worked as 
@@ -70,34 +95,31 @@
                         <br>
                         Connect with me on <a href="https://www.linkedin.com/in/elliot-park/">LinkedIn</a>!
                     </p>
-                </div>
             </article>
 
             <article>
-                <h3>Contact Me</h3>
-                <div classs="contact-me">
+                <h3 id="contact-me">Contact Me</h3>
                     <p>
                         Please do not hesitate to contact me. Happy to chat!
                     </p>
 
                     <ul>  
                         <li>
-                            949-949-9494
+                            Phone: 800-123-4567
                         </li>
             
                         <li>
-                            <a href="mailto:elliotpark410@gmail.com">elliotpark410@gmail.com</a>
+                            Email: <a href="mailto:elliotpark410@gmail.com">elliotpark410@gmail.com</a>
                         </li>
         
                         <li>
-                            <a href="https://github.com/elliotpark410">Github</a>
+                            Github: <a href="https://github.com/elliotpark410">https://github.com/elliotpark410</a>
                         </li>
 
                         <li>
-                            <a href="https://www.linkedin.com/in/elliot-park/">LinkedIn</a>
+                            LinkedIn: <a href="https://www.linkedin.com/in/elliot-park/">www.linkedin.com/in/elliot-park/</a>
                         </li>
                     </ul>
-                </div>
             </article>
 
         </section>
@@ -106,7 +128,7 @@
 
     <footer>
 
-        <h5>Created by Elliot Park Inc. &copy;</h5>
+        <h5>Created by Park Inc. &copy;</h5>
 
     </footer>
 </body>

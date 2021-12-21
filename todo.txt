@@ -1,13 +1,28 @@
 Read README-initial.md
 Create repo
-Clone repo to (C:\Users\Minwoo\Desktop\Coding_Bootcamp\my-class-repo\02-advanced-css\homework)
+Clone repo to
 Create website
-    index.html (save to homework folder)
+    index.html 
     reset.css
     style.css
 Create ReadMe - include screenshots and gif walking through application
 Commit to Git (at least 15 feature-based commits / commit messaging use present tense like add, complete, replace )
 Submit homework on Bootcamp Spot (Deployed link and Github URL)
 
+
+GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them DONE
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section DONE
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications DONE
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others DONE
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application DONE
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
+```
 
 
