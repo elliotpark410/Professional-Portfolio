@@ -78,6 +78,10 @@ p {
     word-wrap: break-word;
 }
 
+a {
+    color: blue;
+}
+
 ul li {
     list-style: none;
     margin-bottom: 15px;
