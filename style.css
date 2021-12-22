@@ -56,7 +56,7 @@ main {
 
 .work-images {
     position: relative;
-    right: 60px;
+    right: 30px;
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-around;
