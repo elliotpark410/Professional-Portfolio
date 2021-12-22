@@ -22,7 +22,7 @@ Open your favorite web browser and enter the following web address to access.
 
 1. Download your favorite browser
 2. Download your favorite text editor
-3. Click link under Deployed Link section
+3. To see website, click link under Deployed Link section
 4. To see code, this link will take you to the Github repository
 >https://github.com/elliotpark410/Professional-Portfolio
 5. HTML code is in index.html and CSS code is in style.css 
