@@ -5,25 +5,30 @@
     color: black;
 }
 
+body {
+    display: block;
+}
+
 .sidebar {
-    width: 200px;
+    width:180px;
     height: 100%;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     overflow-x: hidden;
-    padding: 10px 8px 6px 16px;
+    padding: 10px 0px 6px 16px;
 }
 
 .sidenav {
-    padding: 6px 8px 6px 16px;
+    padding: 18px 0px 6px 16px;
     font-size: 16px;
     display: flex;
     flex-direction: column;
 }
 
 .sidenav a {
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -39,12 +44,23 @@ h2 {
 }
 
 main { 
-    display: block;
     position: relative;
     left: 230px;
+    width: 80%;
 }
 
+.about-me-class img, .work-images img{
+    border: solid black;
+    border-radius: 8px;
+}
 
+.work-images {
+    position: relative;
+    right: 60px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 article {
     padding-top: 2%;
@@ -53,7 +69,23 @@ article {
 
 .image:hover {
     position: relative;
-    width: 500px;
-    height: auto;
+    width: 400px;
+    height: 250px;
     display: block;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 992px) {
+    .main-content {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-content {
+        width: 90%;
+    }
 }
