@@ -4,11 +4,13 @@ This is my first professional portfolio so that employers can learn more about m
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Open your favorite web browser and enter the following web address to access. 
+
+>https://elliotpark410.github.io/Professional-Portfolio/
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
+
 
 ```
 Give examples
@@ -31,6 +33,8 @@ until finished
 ```
 
 End with an example of getting some data out of the system or using it for a little demo.
+
+## Screenshots
 
 
 ## Built With
