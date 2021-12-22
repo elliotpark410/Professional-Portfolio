@@ -1,6 +1,6 @@
 # Professional Portfolio
 
-This is my first professional portfolio.
+This is my first professional portfolio so that employers can learn more about me and my professional experience. A professional portfolio is influential as a software engineer because they can learn about the quality of your code and application. I built this professional portfolio with HTML and CSS. 
 
 ## Getting Started
 
