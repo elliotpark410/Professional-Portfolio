@@ -1,6 +1,6 @@
-# Project Title
+# Professional Portfolio
 
-One paragraph of project description goes here.
+This is my first professional portfolio.
 
 ## Getting Started
 
@@ -41,12 +41,12 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Deployed Link
 
-* [See Live Site](#)
+* [https://elliotpark410.github.io/Professional-Portfolio/](#)
 
 
 ## Authors
 
-* **YOUR NAME** 
+* **Elliot Park** 
 
 - [Link to Portfolio Site](#)
 - [Link to Github](https://github.com/)
