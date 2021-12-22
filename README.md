@@ -25,7 +25,7 @@ Open your favorite web browser and enter the following web address to access.
 3. Click link under Deployed Link section
 4. To see code, this link will take you to the Github repository
 >https://github.com/elliotpark410/Professional-Portfolio
-5. HTML code is index.html and CSS code is in style.css 
+5. HTML code is in index.html and CSS code is in style.css 
 
 ## Website Screenshots
 <img src="Assets\Elliot Park's Portfolio screenshot.png" title="Top of Website screenshot">
